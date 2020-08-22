@@ -236,11 +236,15 @@ footer {
 /* styling for tablet (screensize >=768px) */
 @media (min-width: 768px) {
   body {
-    padding: 50px 50px;
+    padding: 30px 30px;
   }
 
   strong {
     font-size: 1.125rem;
+  }
+
+  nav, p, span {
+    font-size: 1rem;
   }
 
   /* styling for the div containing the menu */
@@ -294,6 +298,11 @@ footer {
 @media(min-width: 992px) {
   #menu-crevea {
     padding-left: 10%;
+  }
+
+  strong {
+    font-size: 1.5rem;
+    /* 24px */
   }
 
   #menu-search-icon {

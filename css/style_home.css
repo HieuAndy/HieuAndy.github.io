@@ -15,7 +15,7 @@ img {
 }
 
 nav, p {
-  font-size: 0.75rem;
+  font-size: 1rem;
 }
 
 /* Menu section */
@@ -387,7 +387,7 @@ footer {
 /* styling for tablet (screensize >=768px) */
 @media (min-width: 768px) {
   body {
-  padding: 50px 50px;
+  padding: 30px 30px;
 }
 
   strong {
